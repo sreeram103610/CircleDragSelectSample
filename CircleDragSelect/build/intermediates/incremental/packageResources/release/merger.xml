@@ -2,49 +2,49 @@
 <merger version="2" >
 
     <dataSet config="main" >
-        <source path="/Users/brainfreak/Downloads/CircleDragSelectSample/CircleDragSelect/src/main/res" >
+        <source path="/Users/brainfreak/Android/CircleDragSelectSample/CircleDragSelect/src/main/res" >
             <file
                 name="border_zoom_in"
-                path="/Users/brainfreak/Downloads/CircleDragSelectSample/CircleDragSelect/src/main/res/anim/border_zoom_in.xml"
+                path="/Users/brainfreak/Android/CircleDragSelectSample/CircleDragSelect/src/main/res/anim/border_zoom_in.xml"
                 qualifiers=""
                 type="anim" />
             <file
                 name="ic_launcher"
-                path="/Users/brainfreak/Downloads/CircleDragSelectSample/CircleDragSelect/src/main/res/drawable-hdpi/ic_launcher.png"
+                path="/Users/brainfreak/Android/CircleDragSelectSample/CircleDragSelect/src/main/res/drawable-hdpi/ic_launcher.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/brainfreak/Downloads/CircleDragSelectSample/CircleDragSelect/src/main/res/drawable-mdpi/ic_launcher.png"
+                path="/Users/brainfreak/Android/CircleDragSelectSample/CircleDragSelect/src/main/res/drawable-mdpi/ic_launcher.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/brainfreak/Downloads/CircleDragSelectSample/CircleDragSelect/src/main/res/drawable-xhdpi/ic_launcher.png"
+                path="/Users/brainfreak/Android/CircleDragSelectSample/CircleDragSelect/src/main/res/drawable-xhdpi/ic_launcher.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/brainfreak/Downloads/CircleDragSelectSample/CircleDragSelect/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                path="/Users/brainfreak/Android/CircleDragSelectSample/CircleDragSelect/src/main/res/drawable-xxhdpi/ic_launcher.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
                 name="activity_main"
-                path="/Users/brainfreak/Downloads/CircleDragSelectSample/CircleDragSelect/src/main/res/layout/activity_main.xml"
+                path="/Users/brainfreak/Android/CircleDragSelectSample/CircleDragSelect/src/main/res/layout/activity_main.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="fragment_main"
-                path="/Users/brainfreak/Downloads/CircleDragSelectSample/CircleDragSelect/src/main/res/layout/fragment_main.xml"
+                path="/Users/brainfreak/Android/CircleDragSelectSample/CircleDragSelect/src/main/res/layout/fragment_main.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="main"
-                path="/Users/brainfreak/Downloads/CircleDragSelectSample/CircleDragSelect/src/main/res/menu/main.xml"
+                path="/Users/brainfreak/Android/CircleDragSelectSample/CircleDragSelect/src/main/res/menu/main.xml"
                 qualifiers=""
                 type="menu" />
             <file
-                path="/Users/brainfreak/Downloads/CircleDragSelectSample/CircleDragSelect/src/main/res/values/attrs.xml"
+                path="/Users/brainfreak/Android/CircleDragSelectSample/CircleDragSelect/src/main/res/values/attrs.xml"
                 qualifiers="" >
                 <declare-styleable name="CircleView" >
                     <attr
@@ -59,7 +59,7 @@
                 </declare-styleable>
             </file>
             <file
-                path="/Users/brainfreak/Downloads/CircleDragSelectSample/CircleDragSelect/src/main/res/values/dimens.xml"
+                path="/Users/brainfreak/Android/CircleDragSelectSample/CircleDragSelect/src/main/res/values/dimens.xml"
                 qualifiers="" >
                 <dimen name="activity_vertical_margin" >16dp
                 </dimen>
@@ -67,7 +67,7 @@
                 </dimen>
             </file>
             <file
-                path="/Users/brainfreak/Downloads/CircleDragSelectSample/CircleDragSelect/src/main/res/values/strings.xml"
+                path="/Users/brainfreak/Android/CircleDragSelectSample/CircleDragSelect/src/main/res/values/strings.xml"
                 qualifiers="" >
                 <string name="hello_world" >Hello world!
                 </string>
@@ -77,7 +77,7 @@
                 </string>
             </file>
             <file
-                path="/Users/brainfreak/Downloads/CircleDragSelectSample/CircleDragSelect/src/main/res/values/styles.xml"
+                path="/Users/brainfreak/Android/CircleDragSelectSample/CircleDragSelect/src/main/res/values/styles.xml"
                 qualifiers="" >
 
                 <style
@@ -99,7 +99,7 @@
                 </style>
             </file>
             <file
-                path="/Users/brainfreak/Downloads/CircleDragSelectSample/CircleDragSelect/src/main/res/values-v11/styles.xml"
+                path="/Users/brainfreak/Android/CircleDragSelectSample/CircleDragSelect/src/main/res/values-v11/styles.xml"
                 qualifiers="v11" >
 
                 <style
@@ -110,7 +110,7 @@
                 </style>
             </file>
             <file
-                path="/Users/brainfreak/Downloads/CircleDragSelectSample/CircleDragSelect/src/main/res/values-v14/styles.xml"
+                path="/Users/brainfreak/Android/CircleDragSelectSample/CircleDragSelect/src/main/res/values-v14/styles.xml"
                 qualifiers="v14" >
 
                 <style
@@ -121,17 +121,17 @@
                 </style>
             </file>
             <file
-                path="/Users/brainfreak/Downloads/CircleDragSelectSample/CircleDragSelect/src/main/res/values-w820dp/dimens.xml"
+                path="/Users/brainfreak/Android/CircleDragSelectSample/CircleDragSelect/src/main/res/values-w820dp/dimens.xml"
                 qualifiers="w820dp-v13" >
                 <dimen name="activity_horizontal_margin" >64dp
                 </dimen>
             </file>
         </source>
-        <source path="/Users/brainfreak/Downloads/CircleDragSelectSample/CircleDragSelect/build/generated/res/rs/release" />
-        <source path="/Users/brainfreak/Downloads/CircleDragSelectSample/CircleDragSelect/build/generated/res/generated/release" />
+        <source path="/Users/brainfreak/Android/CircleDragSelectSample/CircleDragSelect/build/generated/res/rs/release" />
+        <source path="/Users/brainfreak/Android/CircleDragSelectSample/CircleDragSelect/build/generated/res/generated/release" />
     </dataSet>
     <dataSet config="release" >
-        <source path="/Users/brainfreak/Downloads/CircleDragSelectSample/CircleDragSelect/src/release/res" />
+        <source path="/Users/brainfreak/Android/CircleDragSelectSample/CircleDragSelect/src/release/res" />
     </dataSet>
 
 </merger>

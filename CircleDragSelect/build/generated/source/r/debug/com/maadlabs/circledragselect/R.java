@@ -19,7 +19,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static int numOptions=0x7f010001;
+        public static int color=0x7f010002;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int showText=0x7f010001;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -68,24 +76,26 @@ containing a value of this type.
         public static int AppTheme=0x7f070001;
     }
     public static final class styleable {
-        /** Attributes that can be used with a CirclesOptionView.
+        /** Attributes that can be used with a CircleView.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CirclesOptionView_numOptions com.maadlabs.circledragselect:numOptions}</code></td><td></td></tr>
-           <tr><td><code>{@link #CirclesOptionView_text com.maadlabs.circledragselect:text}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircleView_color com.maadlabs.circledragselect:color}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircleView_showText com.maadlabs.circledragselect:showText}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircleView_text com.maadlabs.circledragselect:text}</code></td><td></td></tr>
            </table>
-           @see #CirclesOptionView_numOptions
-           @see #CirclesOptionView_text
+           @see #CircleView_color
+           @see #CircleView_showText
+           @see #CircleView_text
          */
-        public static final int[] CirclesOptionView = {
-            0x7f010000, 0x7f010001
+        public static final int[] CircleView = {
+            0x7f010000, 0x7f010001, 0x7f010002
         };
         /**
-          <p>This symbol is the offset where the {@link com.maadlabs.circledragselect.R.attr#numOptions}
-          attribute's value can be found in the {@link #CirclesOptionView} array.
+          <p>This symbol is the offset where the {@link com.maadlabs.circledragselect.R.attr#color}
+          attribute's value can be found in the {@link #CircleView} array.
 
 
           <p>Must be an integer value, such as "<code>100</code>".
@@ -94,12 +104,26 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.maadlabs.circledragselect:numOptions
+          @attr name com.maadlabs.circledragselect:color
         */
-        public static final int CirclesOptionView_numOptions = 1;
+        public static final int CircleView_color = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.maadlabs.circledragselect.R.attr#showText}
+          attribute's value can be found in the {@link #CircleView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.maadlabs.circledragselect:showText
+        */
+        public static final int CircleView_showText = 1;
         /**
           <p>This symbol is the offset where the {@link com.maadlabs.circledragselect.R.attr#text}
-          attribute's value can be found in the {@link #CirclesOptionView} array.
+          attribute's value can be found in the {@link #CircleView} array.
 
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
@@ -110,6 +134,6 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.maadlabs.circledragselect:text
         */
-        public static final int CirclesOptionView_text = 0;
+        public static final int CircleView_text = 0;
     };
 }

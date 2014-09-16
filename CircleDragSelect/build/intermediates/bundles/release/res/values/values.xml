@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/Users/brainfreak/Downloads/CircleDragSelectSample/CircleDragSelect/src/main/res/values/attrs.xml -->
+    <!-- From: file:/Users/brainfreak/Android/CircleDragSelectSample/CircleDragSelect/src/main/res/values/attrs.xml -->
     <eat-comment />
 
     <declare-styleable name="CircleView">
@@ -9,18 +9,18 @@
         <attr name="showText" format="boolean" />
         <attr name="color" format="integer" />
     </declare-styleable>
-    <!-- From: file:/Users/brainfreak/Downloads/CircleDragSelectSample/CircleDragSelect/src/main/res/values/dimens.xml -->
+    <!-- From: file:/Users/brainfreak/Android/CircleDragSelectSample/CircleDragSelect/src/main/res/values/dimens.xml -->
     <eat-comment />
 
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/Users/brainfreak/Downloads/CircleDragSelectSample/CircleDragSelect/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/brainfreak/Android/CircleDragSelectSample/CircleDragSelect/src/main/res/values/strings.xml -->
     <eat-comment />
 
     <string name="action_settings">Settings</string>
     <string name="app_name">CircleDragSelect</string>
     <string name="hello_world">Hello world!</string>
-    <!-- From: file:/Users/brainfreak/Downloads/CircleDragSelectSample/CircleDragSelect/src/main/res/values/styles.xml -->
+    <!-- From: file:/Users/brainfreak/Android/CircleDragSelectSample/CircleDragSelect/src/main/res/values/styles.xml -->
     <eat-comment />
 
     <style name="AppBaseTheme" parent="android:Theme.Light">

@@ -6,11 +6,10 @@
     android:layout_height="match_parent" >
     
     <com.maadlabs.circledragselect.view.CirclesOptionView
-        custom:text="reading"
-        custom:numOptions="1"
+
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/circleSelectViewMain" />
     
 </LinearLayout>
-<!-- From: file:/Users/brainfreak/Downloads/CircleDragSelectSample/CircleDragSelect/src/main/res/layout/activity_main.xml -->
+<!-- From: file:/Users/brainfreak/Android/CircleDragSelectSample/CircleDragSelect/src/main/res/layout/activity_main.xml -->

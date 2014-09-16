@@ -11,7 +11,8 @@ public final class R {
 		public static final int border_zoom_in = 0x7f040000;
 	}
 	public static final class attr {
-		public static final int numOptions = 0x7f010001;
+		public static final int color = 0x7f010002;
+		public static final int showText = 0x7f010001;
 		public static final int text = 0x7f010000;
 	}
 	public static final class dimen {
@@ -43,8 +44,9 @@ public final class R {
 		public static final int AppTheme = 0x7f070001;
 	}
 	public static final class styleable {
-		public static final int[] CirclesOptionView = { 0x7f010000, 0x7f010001 };
-		public static final int CirclesOptionView_numOptions = 1;
-		public static final int CirclesOptionView_text = 0;
+		public static final int[] CircleView = { 0x7f010000, 0x7f010001, 0x7f010002 };
+		public static final int CircleView_color = 2;
+		public static final int CircleView_showText = 1;
+		public static final int CircleView_text = 0;
 	}
 }
